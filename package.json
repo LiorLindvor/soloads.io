@@ -1,0 +1,34 @@
+{
+  "name": "some_name",
+  "version": "0.0.0",
+  "description": "",
+  "author": "Some author",
+  "main": "./gulpfile.js",
+  "scripts": {
+    "postinstall": "npm run watch",
+    "watch": "gulp"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "private": true,
+  "dependencies": {
+    "bootstrap": "*",
+    "jquery": "*"
+  },
+  "devDependencies": {
+    "boolean": "*",
+    "bootstrap": "^4.0.0-alpha.6",
+    "gulp": "*",
+    "gulp-concat": "*",
+    "gulp-connect": "*",
+    "gulp-cssnano": "*",
+    "gulp-rimraf": "*",
+    "gulp-sass": "*",
+    "gulp-sourcemaps": "*",
+    "gulp-uglify": "*",
+    "run-sequence": "*",
+    "tether": "^1.4.0",
+    "yargs": "^7.0.2"
+  }
+}

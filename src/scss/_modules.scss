@@ -1,0 +1,60 @@
+// HERE WE WRITE SMALL REUSABLE PART OF DESIGN LIKE BTNS, INPUTS, LISTS:
+
+.tooltip > .tooltip-inner {
+	background-color: #253756; 
+	max-width: 150px; 
+	padding: 11px 15px 11px 15px;
+	font-size: 11px; text-transform: capitalize;
+	font-family: 'Fira Sans';
+	border-radius: 20px;
+}
+.tooltip-arrow {
+	border-color: #253756 !important;
+}
+
+.box-content .statistic-block .status {
+    border-radius: 50px;
+    height: 29px;
+    width: 88px;
+    font-family: $font-fira;
+    font-size: 16px;
+	font-style: italic;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    // ** Styles for statuses ** //
+    
+    &.ongoing {
+    	color: #388926;
+		background-color: #b8de6e;
+    }
+    &.pending {
+	    color: #b76003;
+		background: #ffa442;
+    }
+    &.complete {
+	    color: #b68a2c;
+		background: #ffbf37;
+    }
+    &.stopped {
+    	color: #a50000;
+		background: #ff1616;
+    }
+}
+
+.no-wrap {
+	white-space: nowrap;
+}
+
+.info, .star {
+	cursor: pointer;
+}
+
+.info {
+	&.align-end {
+		position: absolute;
+		right: 0;
+		top: 20px;
+	}
+}
