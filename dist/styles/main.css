@@ -772,17 +772,25 @@ footer {
   .client-page .main .block-box .box-content .info-box, .client-page .main .setup-box .box-content .info-box, .client-page .main .campaigns-box .box-content .info-box {
     margin-bottom: 20px; }
   .client-page .main .block-box .box-content .align-start, .client-page .main .setup-box .box-content .align-start, .client-page .main .campaigns-box .box-content .align-start {
-    text-align: center; }
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
     .client-page .main .block-box .box-content .align-start .info-box::after, .client-page .main .setup-box .box-content .align-start .info-box::after, .client-page .main .campaigns-box .box-content .align-start .info-box::after {
       display: none; }
   .client-page .main .block-box .box-content .align-end, .client-page .main .setup-box .box-content .align-end, .client-page .main .campaigns-box .box-content .align-end {
-    text-align: center; }
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
     .client-page .main .block-box .box-content .align-end .info-box::before, .client-page .main .setup-box .box-content .align-end .info-box::before, .client-page .main .campaigns-box .box-content .align-end .info-box::before {
       display: none; }
   .client-page .main .questions-block {
     padding: 0px;
     padding-top: 40px;
-    padding-bottom: 40px; } }
+    padding-bottom: 40px; }
+  footer .footer-links {
+    text-align: center; } }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px) {

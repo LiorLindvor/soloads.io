@@ -372,12 +372,18 @@
 				}
 				.align-start {
 				    text-align: center;
+				    display: flex;
+				    align-items: center;
+				    justify-content: center;
 					.info-box::after {
 					    display: none;
 					}
 				}
 				.align-end {
 				    text-align: center;
+				    display: flex;
+				    align-items: center;
+				    justify-content: center;
 					.info-box::before {
 					    display: none;
 					}
@@ -390,6 +396,12 @@
 			padding-bottom: 40px;
 		}
 	}
+	footer {
+		.footer-links {
+		text-align: center;
+		}
+	}
+	
 }
 
 /* Extra Small Devices, Phones */ 
