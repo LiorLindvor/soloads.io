@@ -3,3 +3,19 @@
 .mtop-md {
 	margin-top: 60px;
 }
+
+.no-wrap {
+	white-space: nowrap;
+}
+
+.info, .star {
+	cursor: pointer;
+}
+
+.info {
+	&.align-end {
+		position: absolute;
+		right: 0;
+		top: 20px;
+	}
+}

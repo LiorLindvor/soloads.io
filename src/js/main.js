@@ -8,7 +8,7 @@
 	})
 
 	$(document).ready(function() {
-      $("body").tooltip({ selector: '[data-toggle=tooltip]', html: true });
+      	$("body").tooltip({ selector: '[data-toggle=tooltip]', html: true });
   	});
 
 })();

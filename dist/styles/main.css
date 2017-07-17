@@ -3,6 +3,17 @@
 .mtop-md {
   margin-top: 60px; }
 
+.no-wrap {
+  white-space: nowrap; }
+
+.info, .star {
+  cursor: pointer; }
+
+.info.align-end {
+  position: absolute;
+  right: 0;
+  top: 20px; }
+
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 /**
  * 1. Set default font family to sans-serif.
@@ -382,6 +393,92 @@ strong {
 img {
   max-width: 100%; }
 
+header {
+  background-color: #fff;
+  height: 159px; }
+  header img {
+    margin-top: 22px;
+    margin-bottom: 32px; }
+
+footer {
+  background-color: #1b2034;
+  padding-top: 50px;
+  padding-bottom: 30px; }
+  footer .row {
+    text-align: center; }
+  footer .border-left::before {
+    content: "";
+    display: block;
+    border-left: 1px solid #2e3249;
+    height: 118px;
+    position: absolute;
+    top: -6px;
+    left: 0; }
+  footer .border-right::after {
+    content: "";
+    display: block;
+    border-left: 1px solid #2e3249;
+    height: 118px;
+    position: absolute;
+    top: -6px;
+    left: 0; }
+  footer .contact-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    footer .contact-block .contact-icon {
+      width: 34px;
+      height: 35px;
+      background-position: -5px -3px;
+      background-image: url(../img/footer-icons.png);
+      background-repeat: no-repeat;
+      display: block;
+      margin: 0 auto; }
+    footer .contact-block .contact-email {
+      color: #dea318;
+      font-size: 16px;
+      text-decoration: none;
+      font-family: "Patua One", cursive;
+      margin-top: 10px; }
+    footer .contact-block .subtext {
+      color: #b8bed7;
+      font-size: 18px;
+      font-weight: bold;
+      text-transform: uppercase;
+      font-family: "Patua One", cursive;
+      margin-top: 10px; }
+  footer .email-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    footer .email-block .email-icon {
+      width: 28px;
+      height: 28px;
+      background-position: -48px -3px;
+      background-image: url(../img/footer-icons.png);
+      background-repeat: no-repeat;
+      display: block;
+      margin: 0 auto; }
+    footer .email-block .footer-number-big {
+      color: #dea318;
+      font-size: 32px;
+      margin: 0px 0 -6px;
+      font-family: "Patua One", cursive;
+      margin-top: 7px; }
+    footer .email-block .subtext {
+      color: #b8bed7;
+      font-size: 18px;
+      font-weight: bold;
+      text-transform: uppercase;
+      font-family: "Patua One", cursive;
+      margin-top: 1px; }
+  footer .footer-links {
+    text-align: right;
+    margin-top: 40px;
+    color: #686e88;
+    font-size: 15px;
+    font-family: "Fira Sans", sans-serif; }
+
 .tooltip > .tooltip-inner {
   background-color: #253756;
   max-width: 150px;
@@ -416,24 +513,6 @@ img {
   .box-content .statistic-block .status.stopped {
     color: #a50000;
     background: #ff1616; }
-
-.no-wrap {
-  white-space: nowrap; }
-
-.info, .star {
-  cursor: pointer; }
-
-.info.align-end {
-  position: absolute;
-  right: 0;
-  top: 20px; }
-
-.client-page header {
-  background-color: #fff;
-  height: 159px; }
-  .client-page header img {
-    margin-top: 22px;
-    margin-bottom: 32px; }
 
 .client-page .main {
   background-image: url(../img/bg.png);
@@ -627,7 +706,7 @@ img {
     border: 1px solid #d7dfe8;
     background-color: #f6f9fa;
     background-image: linear-gradient(to top, rgba(243, 247, 250, 0.38) 0%, rgba(243, 247, 250, 0) 100%);
-    padding: 56px 48px 44px 10px; }
+    padding: 56px 25px 44px 25px; }
     .client-page .main .questions-block .box-title {
       margin-bottom: 33px; }
     .client-page .main .questions-block .box-title h3 {
@@ -664,83 +743,66 @@ img {
         .client-page .main .questions-block .question-block:hover a {
           color: #253756; }
 
-.client-page footer {
-  background-color: #1b2034;
-  padding-top: 50px;
-  padding-bottom: 30px; }
-  .client-page footer .row {
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+  .client-page .main .block-box .box-content .align-start .info-box::after, .client-page .main .setup-box .box-content .align-start .info-box::after, .client-page .main .campaigns-box .box-content .align-start .info-box::after {
+    display: none; }
+  .client-page .main .block-box .box-content .align-end .info-box::before, .client-page .main .setup-box .box-content .align-end .info-box::before, .client-page .main .campaigns-box .box-content .align-end .info-box::before {
+    display: none; } }
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  .client-page .main .block-box .box-content .align-start .info-box::after, .client-page .main .setup-box .box-content .align-start .info-box::after, .client-page .main .campaigns-box .box-content .align-start .info-box::after {
+    display: none; }
+  .client-page .main .block-box .box-content .align-end .info-box::before, .client-page .main .setup-box .box-content .align-end .info-box::before, .client-page .main .campaigns-box .box-content .align-end .info-box::before {
+    display: none; } }
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  header {
     text-align: center; }
-  .client-page footer .border-left::before {
-    content: "";
-    display: block;
-    border-left: 1px solid #2e3249;
-    height: 118px;
-    position: absolute;
-    top: -6px;
-    left: 0; }
-  .client-page footer .border-right::after {
-    content: "";
-    display: block;
-    border-left: 1px solid #2e3249;
-    height: 118px;
-    position: absolute;
-    top: -6px;
-    left: 0; }
-  .client-page footer .contact-block {
-    display: flex;
-    flex-direction: column;
-    align-items: center; }
-    .client-page footer .contact-block .contact-icon {
-      width: 34px;
-      height: 35px;
-      background-position: -5px -3px;
-      background-image: url(../img/footer-icons.png);
-      background-repeat: no-repeat;
-      display: block;
-      margin: 0 auto; }
-    .client-page footer .contact-block .contact-email {
-      color: #dea318;
-      font-size: 16px;
-      text-decoration: none;
-      font-family: "Patua One", cursive;
-      margin-top: 10px; }
-    .client-page footer .contact-block .subtext {
-      color: #b8bed7;
-      font-size: 18px;
-      font-weight: bold;
-      text-transform: uppercase;
-      font-family: "Patua One", cursive;
-      margin-top: 10px; }
-  .client-page footer .email-block {
-    display: flex;
-    flex-direction: column;
-    align-items: center; }
-    .client-page footer .email-block .email-icon {
-      width: 28px;
-      height: 28px;
-      background-position: -48px -3px;
-      background-image: url(../img/footer-icons.png);
-      background-repeat: no-repeat;
-      display: block;
-      margin: 0 auto; }
-    .client-page footer .email-block .footer-number-big {
-      color: #dea318;
-      font-size: 32px;
-      margin: 0px 0 -6px;
-      font-family: "Patua One", cursive;
-      margin-top: 7px; }
-    .client-page footer .email-block .subtext {
-      color: #b8bed7;
-      font-size: 18px;
-      font-weight: bold;
-      text-transform: uppercase;
-      font-family: "Patua One", cursive;
-      margin-top: 1px; }
-  .client-page footer .footer-links {
-    text-align: right;
-    margin-top: 40px;
-    color: #686e88;
-    font-size: 15px;
-    font-family: "Fira Sans", sans-serif; }
+  .client-page .main .campaigns-box .box-content {
+    padding: 20px; }
+  .client-page .main .setup-box .box-content .item {
+    padding-left: 0;
+    padding-right: 0; }
+  .client-page .main .setup-box .box-content .autoresponder-wrap {
+    margin-top: 20px;
+    margin-bottom: 10px; }
+  .client-page .main .block-box .box-content .info-box, .client-page .main .setup-box .box-content .info-box, .client-page .main .campaigns-box .box-content .info-box {
+    margin-bottom: 20px; }
+  .client-page .main .block-box .box-content .align-start, .client-page .main .setup-box .box-content .align-start, .client-page .main .campaigns-box .box-content .align-start {
+    text-align: center; }
+    .client-page .main .block-box .box-content .align-start .info-box::after, .client-page .main .setup-box .box-content .align-start .info-box::after, .client-page .main .campaigns-box .box-content .align-start .info-box::after {
+      display: none; }
+  .client-page .main .block-box .box-content .align-end, .client-page .main .setup-box .box-content .align-end, .client-page .main .campaigns-box .box-content .align-end {
+    text-align: center; }
+    .client-page .main .block-box .box-content .align-end .info-box::before, .client-page .main .setup-box .box-content .align-end .info-box::before, .client-page .main .campaigns-box .box-content .align-end .info-box::before {
+      display: none; }
+  .client-page .main .questions-block {
+    padding: 0px;
+    padding-top: 40px;
+    padding-bottom: 40px; } }
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  .client-page .main .page-title .title-text {
+    font-size: 21px; }
+  .client-page .main .campaigns-box .box-content {
+    padding: 20px; }
+  .client-page .main .setup-box .box-content .item {
+    padding-left: 0;
+    padding-right: 0; }
+  .client-page .main .setup-box .box-content .autoresponder-wrap {
+    margin-top: 20px;
+    margin-bottom: 10px; }
+  .client-page .main .block-box .box-content .info-box, .client-page .main .setup-box .box-content .info-box, .client-page .main .campaigns-box .box-content .info-box {
+    margin-bottom: 20px; }
+  .client-page .main .block-box .box-content .align-start .info-box::after, .client-page .main .setup-box .box-content .align-start .info-box::after, .client-page .main .campaigns-box .box-content .align-start .info-box::after {
+    display: none; }
+  .client-page .main .block-box .box-content .align-end .info-box::before, .client-page .main .setup-box .box-content .align-end .info-box::before, .client-page .main .campaigns-box .box-content .align-end .info-box::before {
+    display: none; } }
+
+/* Custom, iPhone Retina */
 
 /*# sourceMappingURL=main.css.map */

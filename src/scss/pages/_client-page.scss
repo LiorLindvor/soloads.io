@@ -1,16 +1,5 @@
 .client-page {
 
-	// ** Header Section **//
-	
-	header {
-		background-color: #fff;
-		height: 159px;
-		img {
-			margin-top: 22px;
-			margin-bottom: 32px;
-		}
-	}
-
 	// ** Main Section **//
 	
 	.main {
@@ -72,7 +61,6 @@
 					font-size: 21px;
 					font-weight: 400;
 					text-transform: uppercase;
-					
 				}
 			}
 		}
@@ -259,12 +247,10 @@
 		    border: 1px solid rgb(215, 223, 232);
 			background-color: #f6f9fa;
 			background-image: linear-gradient(to top, rgba(243, 247, 250, 0.38) 0%, rgba(243, 247, 250, 0) 100%);
-			padding: 56px 48px 44px 10px;
-			
+			padding: 56px 25px 44px 25px;
 			.box-title {
 				margin-bottom: 33px;
 			}
-
 			.box-title h3 {
 				color: #253756;
 				font-family: $font-patuaone;
@@ -311,95 +297,143 @@
 			}
 		}
 	}
-	footer {
-	    background-color: #1b2034;
-	    padding-top: 50px;
-	    padding-bottom: 30px;
-	    .row {
-	    	text-align: center;
-	    }
-	    .border-left::before {
-		    content: "";
-		    display: block;
-		    border-left: 1px solid #2e3249;
-		    height: 118px;
-		    position: absolute;
-		    top: -6px;
-		    left: 0;
-	    }
-	    .border-right::after {
-    	    content: "";
-		    display: block;
-		    border-left: 1px solid #2e3249;
-		    height: 118px;
-		    position: absolute;
-		    top: -6px;
-		    left: 0;
-	    }
-	    .contact-block {
-	    	display: flex;
-		    flex-direction: column;
-		    align-items: center;
-		    .contact-icon {
-			    width: 34px;
-			    height: 35px;
-	    	    background-position: -5px -3px;
-		        background-image: url(../img/footer-icons.png);
-			    background-repeat: no-repeat;
-			    display: block;
-			    margin: 0 auto;
-		    }
-		    .contact-email {
-	    	    color: #dea318;
-			    font-size: 16px;
-			    text-decoration: none;
-			    font-family: $font-patuaone;
-		        margin-top: 10px;
-		    }
-		    .subtext {
-	    	    color: #b8bed7;
-			    font-size: 18px;
-			    font-weight: bold;
-			    text-transform: uppercase;
-			    font-family: $font-patuaone;
-			    margin-top: 10px;
-		    }
-	    }
-	    .email-block {
-	    	display: flex;
-		    flex-direction: column;
-		    align-items: center;
-	    	.email-icon {
-	    	    width: 28px;
-			    height: 28px;
-			    background-position: -48px -3px;
-			    background-image: url(../img/footer-icons.png);
-			    background-repeat: no-repeat;
-			    display: block;
-			    margin: 0 auto;
-		    }
-		    .footer-number-big {
-			    color: #dea318;
-			    font-size: 32px;
-			    margin: 0px 0 -6px;
-			    font-family: $font-patuaone;
-			    margin-top: 7px;
+}
+
+// ** Media Queries ** //
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	.client-page .main {
+		.block-box {
+			.box-content {
+				.align-start {
+					.info-box::after {
+					    display: none;
+					}
+				}
+				.align-end {
+					.info-box::before {
+					    display: none;
+					}
+				}
 			}
-			.subtext {
-				color: #b8bed7;
-			    font-size: 18px;
-			    font-weight: bold;
-			    text-transform: uppercase;
-			    font-family: $font-patuaone;
-			    margin-top: 1px;
-			}	
-	    }
-	     .footer-links {
-    	    text-align: right;
-		    margin-top: 40px;
-		    color: #686e88;
-		    font-size: 15px;
-		    font-family: $font-fira;
-	    }
+		}
 	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.client-page .main {
+		
+		.block-box {
+			.box-content {
+				.align-start {
+					.info-box::after {
+					    display: none;
+					}
+				}
+				.align-end {
+					.info-box::before {
+					    display: none;
+					}
+				}
+			}
+		}
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	header {
+	    text-align: center;
+	}
+	
+	.client-page .main {
+		.campaigns-box .box-content {
+			padding: 20px;
+		}
+		.setup-box {
+			.box-content {
+				.item {
+				    padding-left: 0;
+    				padding-right: 0;
+				}
+				.autoresponder-wrap {
+				    margin-top: 20px;
+					margin-bottom: 10px;
+				}
+			}
+		}
+		.block-box {
+			.box-content {
+				.info-box {
+					margin-bottom: 20px;
+				}
+				.align-start {
+				    text-align: center;
+					.info-box::after {
+					    display: none;
+					}
+				}
+				.align-end {
+				    text-align: center;
+					.info-box::before {
+					    display: none;
+					}
+				}
+			}
+		}
+		.questions-block {
+			padding: 0px;
+			padding-top: 40px;
+			padding-bottom: 40px;
+		}
+	}
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+	.client-page .main {
+		.page-title .title-text {
+			font-size: 21px;
+		}
+		.campaigns-box .box-content {
+			padding: 20px;
+		}
+		.setup-box {
+			.box-content {
+				.item {
+				    padding-left: 0;
+    				padding-right: 0;
+				}
+				.autoresponder-wrap {
+				    margin-top: 20px;
+					margin-bottom: 10px;
+				}
+			}
+		}
+		.block-box {
+			.box-content {
+				.info-box {
+					margin-bottom: 20px;
+				}
+				.align-start {
+					.info-box::after {
+					    display: none;
+					}
+				}
+				.align-end {
+					.info-box::before {
+					    display: none;
+					}
+				}
+			}
+		}
+	}
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+
 }
