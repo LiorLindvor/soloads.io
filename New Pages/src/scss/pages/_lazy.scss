@@ -1,0 +1,25 @@
+// STYLES FOR PAGE http://www.homebasedhero.com/cn/under.html#
+.lazy-page {
+	background: url(../img/ground.jpg) repeat-x;
+	.main-container {
+		.title-block {
+			text-align: center;
+			img {
+				display: inline-block;
+			}
+		}
+		.content-block {
+			background: url(../img/border.png) no-repeat;
+		    background-size: 100% 100%;
+		    width: 100%;
+		    margin: 15px auto 0 auto;
+		    padding: 15px;
+		    .content-wrap {
+		    	background: #fff;
+			    border-radius: 5px;
+			    width: 100%;
+			    height: 100%;
+		    }
+		}
+	}
+}

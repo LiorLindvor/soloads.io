@@ -1,0 +1,27 @@
+// HERE WE WRITE SMALL REUSABLE PART OF DESIGN LIKE BTNS, INPUTS, LISTS:
+.btn {
+	&.-yellow {
+		display: inline-block;
+	    text-align: center;
+	    padding: 18px;
+	    border-radius: 5px;
+	    width: 80%;
+	    color: #fff;
+	    border: 1px solid #e9906c;
+		background: rgb(249,201,45);
+		background: -moz-linear-gradient(top,  rgba(249,201,45,1) 0%, rgba(239,144,6,1) 100%);
+		background: -webkit-linear-gradient(top,  rgba(249,201,45,1) 0%,rgba(239,144,6,1) 100%);
+		background: linear-gradient(to bottom,  rgba(249,201,45,1) 0%,rgba(239,144,6,1) 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9c92d', endColorstr='#ef9006',GradientType=0 );
+	    text-shadow: 0 1px 1px rgba( 0, 0, 0, .1 );
+	    font-size: 22px;
+	    font-family: 'Roboto', sans-serif;
+	    text-transform: uppercase;
+	    font-weight: 400;
+	    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.75);
+	    transition: 0.5s ease;
+	    &:hover {
+	    	box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
+	    }
+	}
+}

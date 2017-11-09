@@ -1,0 +1,104 @@
+// STYLES FOR PAGE http://www.homebasedhero.com/cn/under.html#
+.money-page {
+	background: url(../img/bg.jpg) repeat-x;
+	.stop-block {
+			text-align: center;
+			margin-top: 20px;
+		}
+	.main-container {
+		background: #fff;
+	    border-radius: 5px;
+	    margin-top: -50px;
+	    padding-top: 50px;
+	    margin-bottom: 50px;
+		.content-block {
+			padding-bottom: 50px;
+			.simple-text {
+				font-size: 22px;
+			    text-align: left;
+			    padding-right: 30px;
+			    padding-left: 30px;
+			    font-family: 'Andada', serif;
+			    font-weight: 500;
+			}
+			h1 {
+				font-size: 35.36px;
+			    color: #311e15;
+			    font-family: 'Andada', serif;
+			    text-align: center;
+			    font-weight: 500;
+			}
+			h2 {
+				background: url(../img/mark.png) no-repeat;
+			    background-size: 100% 100%;
+			    padding: 0 7px 0 7px;
+			    font-size: 24px;
+			    font-family: 'Andada', serif;
+			    font-weight: bold;
+			    text-align: center;
+			}
+			.button-block {
+				.btn {
+					padding: 10px;
+					font-family: 'Andada', serif;
+				}
+			}
+			.body-inner-video {
+				background: url(../img/video.png) no-repeat;
+			    width: 649px;
+			    height: 378px;
+			    margin: 0 auto;
+			    text-align: center;
+			    position: relative;
+			    margin-top: 20px;
+			    iframe {
+			    	width: 596px;
+				    height: 335px;
+				    border-radius: 10px;
+				    -moz-border-radius: 10px;
+				    -webkit-border-radius: 10px;
+				    border: 10px solid #000;
+				    position: absolute;
+				    z-index: 2;
+				    left: 33px;
+				    top: 21px;
+			    }
+				.arrow-main {
+				background: url(../img/arrow.png) no-repeat;
+				    height: 155px;
+				    z-index: 2;
+				    width: 729px;
+				    position: absolute;
+				    z-index: 1;
+				    left: -39px;
+				    top: -30px;
+				}
+			}
+			.cant-choose-section {
+				h1 {
+					color: #311e15;
+				    font-size: 34px;
+				    text-transform: uppercase;
+				    letter-spacing: -2px;
+				    margin: 0;
+				}
+				h2 {
+					font-size: 29.29px;
+				    text-transform: uppercase;
+				    color: #311e15;
+				    font-family: 'Andada', serif;
+				    padding: 0 10px 0 10px;
+				    margin: 0 auto;
+				    width: 150px;
+				    display: block;
+				}
+				p {
+					font-size: 22px;
+				    color: #311e15;
+				    text-align: center;
+				    margin-top: 20px;
+				}
+			}
+		}
+	}
+}

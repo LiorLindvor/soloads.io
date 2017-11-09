@@ -1,0 +1,70 @@
+// STYLES FOR PAGE http://test.buzzvibez.com/special
+.special-page { 
+		background: url(../img/bgX.png) repeat;
+		margin: 0;
+		color: #333;
+	.main-container {  
+		margin-top: 50px;
+		padding: 30px;
+		background-color: #fff;
+		.warning-block {
+			span {  
+			   	font-family: 'Roboto', sans-serif;
+			    font-size: 22px;
+			    line-height: 25px; 
+			    color: #f74b19;
+			    padding-left: 24px;
+    			padding-bottom: 24px;
+    			@media(max-width: 992px) {
+		    	padding-bottom: 20px;
+		    	padding-left: 0px;
+		    	padding-top: 15px;
+		    	}
+		    }
+		    @media(max-width: 992px) {
+		    	display: block !important;
+		    	text-align: center;
+
+		    }
+		}
+		.content-block {		    
+		    margin: 20px 0 20px 0;
+		    text-align: center;
+		    @media(max-width: 992px) {
+		    	display: block !important;
+		    }
+		    span {
+		    	font-family: 'Gochi Hand', cursive;
+			    font-size: 35px;
+			    letter-spacing: 0.5px;
+			    line-height: 37px;
+		        padding-top: 40px;
+		        strong {
+	        	    font-family: 'Roboto', sans-serif;
+				    display: block;
+				    font-size: 25px;
+				    margin-top: 10px;
+				    font-weight: 600;
+				    letter-spacing: 0.5px;
+    				line-height: 37px;
+    				margin-top: 45px;
+		        }
+		    }
+		    .yellow-mark {
+	    	    background: url(../img/mark.png) no-repeat;
+			    background-size: 100% 100%;
+			    padding: 0 7px 0 7px;
+		    }
+		    img {
+		    	@media(max-width: 992px) {
+		    	display: block !important;
+		    	    margin: 0 auto;
+		    	}
+		    }
+		}
+		.button-block {
+			margin-top: 20px;
+		}
+	}
+
+}

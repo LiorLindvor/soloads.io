@@ -1,0 +1,43 @@
+// STYLES FOR PAGE http://www.homebasedhero.com/cn/under.html#
+.under-page {
+	background: url(../img/bg.jpg) repeat-x;
+	.congratz-block {
+			text-align: center;
+			margin-top: 20px;
+		}
+	.main-container {
+		background: #fff;
+	    border-radius: 5px;
+	    margin-top: -50px;
+	    padding-top: 50px;
+	    margin-bottom: 50px;
+		.content-block {
+			padding-bottom: 50px;
+			h1 {
+				font-size: 35.36px;
+			    color: #311e15;
+			    font-family: 'Andada', serif;
+			    text-align: center;
+			    margin-top: 20px;
+    			margin-bottom: 10px;
+    			font-weight: 500;
+    			line-height: 1.1;
+			}
+			h2 {
+				background: url(../img/mark.png) no-repeat;
+			    background-size: 100% 100%;
+			    padding: 0 7px 0 7px;
+			    font-size: 24px;
+			    font-family: 'Andada', serif;
+			    font-weight: bold;
+			    text-align: center;
+			}
+			.button-block {
+				.btn {
+					padding: 10px;
+					font-family: 'Andada', serif;
+				}
+			}
+		}
+	}
+}
