@@ -1,0 +1,239 @@
+// STYLES FOR PAGE http://www.homebasedhero.com/cn/under.html#
+.giftz-page {
+    background: url(../img/bod.png) repeat-y;
+    .-small-size { 
+    	width: 100%;
+    	max-width:943px;
+    	.content-wrap {
+    		width: 771px;
+		    background: #ffffff;
+		    margin: 0 0 0 92px;
+		    padding: 0 0 92px 0;
+		    iframe {
+		    	@media (max-width: 650px) {
+		    		width: 100%;
+		    	}
+		    }
+		    .header {
+		    	padding-bottom: 40px;
+		    }
+		    @media (max-width: 767px) {
+		    	width: 100%;
+			    margin: 0;
+			    padding: 0;
+		    }
+		    @media (min-width: 767px) and (max-width: 1024px) {
+		    	width: auto;
+		    	margin: 0px;
+		    	padding: 0px;
+		    }
+		    .header {
+		    	h1 {
+			    	font-family: 'Roboto';
+			    	font-weight: 900;
+				    font-size: 56px;
+				    color: #000000;
+				    text-align: center;
+				    line-height: 57px;	
+				    margin: 0px;
+		    	}
+		    	h2 {
+		    		font-family: 'Gochi Hand';
+				    font-size: 53px;
+				    color: #2575c0;
+				    font-weight: normal;
+				    text-align: center;
+				    line-height: 55px;
+				    padding: 1px 19px 6px 0;
+				    margin: 0;
+		    	}
+		    	.surprice {
+		    		padding-top: 40px;
+		    		padding-right: 70px;
+		    		@media(max-width:490px) {
+		    			padding-top: 0px;
+		    		}
+		    	}
+		    	h5 {
+		    		padding: 40px 0 0 0;
+				    font-family: 'Gochi Hand';
+				    font-size: 32px;
+				    color: #152839;
+				    text-align: center;
+				    font-weight: normal;
+		    	}
+		    }
+	          .product-wrap {
+	          	width: 945px;
+			    margin: 0 auto;
+			    background: #ffffff;
+			    display: inline-block;
+			    margin-left: -85px;
+			    @media (max-width: 1025px) {
+			    	margin-left: 0px;
+			    	width: 100%;
+			    }
+					.product-1 {
+						p {
+							min-height: 338px;
+						}
+						width: 304px;
+					    border: 2px solid #e9eff3;
+					    text-align: center;
+					    padding: 0 0 23px 0;
+					    float: left;
+					    margin: 0 10px 0 0;
+					    position: relative;
+					    border-radius: 3px;
+				        min-height: 800px;
+				        background-color: white;
+					        @media (max-width: 1025px) {
+							    	float: none;
+							    	    margin: 15px auto;
+
+							   		}
+					    .access {
+					    		display: block;
+					    	    width: 252px;
+							    background: url(../img/acess_bg.png) repeat-x;
+							    color: #ffffff;
+							    font-size: 17px;
+							    padding: 14px 0 13px 0;
+							    border-radius: 4px;
+							    margin: 25px auto 0px auto;
+					    }
+						.logo_1 {
+							img {
+								margin-top: 31px;
+								margin-bottom: 34px;
+							}
+						}
+						p {
+							font-family: Arial, Helvetica, sans-serif;
+						    font-size: 17px;
+						    color: #000000;
+						    display: inline-block;
+						    width: 255px;
+						    line-height: 26px;
+						    a {
+						    	    // display: inline-block;
+								    color: #2d76e3;
+								    text-decoration: underline;
+								    word-break: break-all;
+						    }
+						}
+						.arrow_1 {
+							position: absolute;
+						    top: -106px;
+						    left: 179px;
+						       @media (max-width: 1025px) {
+						    	display: none;
+						    }
+						}
+						.arrow_2 {
+							position: absolute;
+						    top: -85px;
+						    left: 139px;
+						       @media (max-width: 1025px) {
+						    	display: none;
+						    }
+						}
+						.arrow_3 {
+							    position: absolute;
+							    top: -107px;
+							    left: 12px;
+							    @media (max-width: 1025px) {
+						    	display: none;
+						    }
+						}
+					}
+	          }
+	          .clock {
+	          	    background: url(../img/clock_icon.png) no-repeat 53px 75px;
+    					padding: 28px 0 0 196px;
+    					@media (max-width: 766px) {
+    						background: 0;
+						    padding: 25px;
+						    text-align: center;
+    					}    
+    					p {
+    						font-family: 'Gochi Hand';
+						    font-size: 26px;
+						    color: #333f4a;
+						    // width: 490px;
+						    position: relative;
+						    span {
+						    	    position: relative;
+								    top: 5px;
+								    left: 0;
+						    }
+    					}
+	          	small {
+	          		    background: url(../img/clock_arrow.png) no-repeat center;
+					    padding: 53px 0 0 0;
+					    display: inline-block;
+					    width: 400px;
+					    @media (max-width:767px) {
+					    	    width: 100%;
+					    }
+	          	}
+	          }
+	          p {
+	          	.select {
+	          		text-align: center;
+	          		display: block;
+	          		font-family: Arial, Helvetica, sans-serif;
+				    font-size: 22px;
+				    font-weight: bold;
+				    color: #2d76e3;
+				    text-decoration: underline;
+				    text-align: center;
+				    padding: 40px 0 16px 0;
+				    &:hover {
+				    	    color: #2d76e3;
+						    text-decoration: underline;
+						    font-family: Arial, Helvetica, sans-serif;
+						    font-size: 24px;
+				    }
+	          	}
+	          }
+	          .couple {
+	          		margin: 28px 0 0 39px;
+	          		@media (max-width: 767px) {
+					    	margin: 0px 10px;
+					    	text-align: center;
+					    }
+	          		p {
+	          			font-family: Arial, Helvetica, sans-serif;
+					    font-size: 24px;
+					    font-weight: normal;
+					    color: #000000;
+					    line-height: normal;
+					    // width: 592px;
+					    margin: 16px 48px 0 48px;
+					    letter-spacing: normal;
+					    @media (max-width: 767px) {
+					    	margin: 0px 10px;
+					    }
+	          		}
+	          		a {
+	          			text-align: center;
+	          		display: block;
+	          		font-family: Arial, Helvetica, sans-serif;
+				    font-size: 22px;
+				    font-weight: bold;
+				    color: #2d76e3;
+				    text-decoration: underline;
+				    text-align: center;
+				    &:hover {
+				    	    color: #2d76e3;
+						    text-decoration: underline;
+						    font-family: Arial, Helvetica, sans-serif;
+						    font-size: 24px;
+				   		}
+	          		}
+	          }
+    	}
+    }
+}
+

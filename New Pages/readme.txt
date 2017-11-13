@@ -3,11 +3,14 @@
 
 Gulp tasks available:
 
-name			description
+name		description
 
-build			Build all img and base css
-sass:personal_page	Make CSS build for Personal page
-sass:special_page	Make CSS build for Special page
-sass:under_page		Make CSS build for Under page
-
-Then you just need open .html file related to just done gulp task.
+styles		Compile Sass
+js		Compile all JS
+js:app		Concat and minify all application scripts
+js:libs		Concat and minify 3rd parties scripts
+copy:images	Copy images into /dist/images
+build		Run all tasks above
+clean		Removes /dist folder
+server		Started localserver
+watch		Watch all sources

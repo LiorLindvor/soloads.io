@@ -125,6 +125,30 @@ gulp.task('sass:lazy_page', () => {
         .pipe(gulp.dest('dist/styles'))
 });
 
+// TASK FOR HERO PAGE
+
+gulp.task('sass:hero_page', () => {
+    return gulp
+        .src('src/scss/hero_page.scss')
+        .pipe(sourcemaps.init())
+        .pipe(sass().on('error', sass.logError))
+        // .pipe(minifyCSS())
+        .pipe(sourcemaps.write('.'))
+        .pipe(gulp.dest('dist/styles'))
+});
+
+// TASK FOR GIFTZ PAGE
+
+gulp.task('sass:giftz_page', () => {
+    return gulp
+        .src('src/scss/giftz_page.scss')
+        .pipe(sourcemaps.init())
+        .pipe(sass().on('error', sass.logError))
+        // .pipe(minifyCSS())
+        .pipe(sourcemaps.write('.'))
+        .pipe(gulp.dest('dist/styles'))
+});
+
 
 gulp.task('styles', ['sass:personal_page']);
 

@@ -1,6 +1,7 @@
 // STYLES FOR PAGE http://www.homebasedhero.com/cn/under.html#
 .omskxpu-page {
 	background: url(../img/bg.jpg) repeat-x;
+	    // font-family: "Times New Roman";
 	.stop-block {
 			text-align: center;
 			margin-top: 20px;
@@ -8,15 +9,18 @@
 	.main-container {
 		background: #fff;
 	    border-radius: 5px;
-	    margin-top: -50px;
 	    padding-top: 50px;
 	    margin-bottom: 50px;
+	    width: 740px;
+	    margin: -50px auto;
+	    @media(max-width: 991px) {
+	    	width: 100%;
+	    }
 		.content-block {
 			padding-bottom: 50px;
 			h1 {
 				font-size: 35.36px;
 			    color: #311e15;
-			    font-family: 'Andada', serif;
 			    text-align: center;
 			    margin-top: 20px;
     			margin-bottom: 10px;
@@ -46,6 +50,11 @@
 			    text-align: center;
 			    position: relative;
 			    margin-top: 20px;
+			     @media (max-width:767px) {
+				    	width: 100%;
+				    	background: none;
+				    	    padding: 15px;
+				    }
 			    iframe {
 			    	width: 596px;
 				    height: 335px;
@@ -57,6 +66,10 @@
 				    z-index: 2;
 				    left: 33px;
 				    top: 21px;
+				    @media (max-width:767px) {
+				    	width: 100%;
+				    	position: initial;
+				    }
 			    }
 				.arrow-main {
 				background: url(../img/arrow.png) no-repeat;
@@ -67,6 +80,9 @@
 				    z-index: 1;
 				    left: -39px;
 				    top: -30px;
+				    @media (max-width: 767px) {
+				    	display: none;
+				    }
 				}
 			}
 			.cant-choose-section {
@@ -76,6 +92,9 @@
 				    text-transform: uppercase;
 				    letter-spacing: -2px;
 				    margin: 0;
+				    @media (max-width:767px) {
+				    	font-size: 29px;
+				    }
 				}
 				h2 {
 					font-size: 29.29px;
@@ -86,12 +105,18 @@
 				    margin: 0 auto;
 				    width: 150px;
 				    display: block;
+				    @media (max-width:767px) {
+				    	font-size: 22px;
+				    }
 				}
 				p {
 					font-size: 22px;
 				    color: #311e15;
 				    text-align: center;
 				    margin-top: 20px;
+				    @media (max-width:767px) {
+				    	font-size: 18px;
+				    }
 				}
 			}
 		}

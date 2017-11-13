@@ -1,0 +1,248 @@
+// STYLES FOR PAGE http://www.homebasedhero.com/cn/under.html#
+.hero-page {
+	color: #b1b1b1;
+    font-family: "Arial", Verdana, Tahoma;
+    font-size: 12px;
+    background: url(../img/body-bg.jpg) no-repeat center top;
+        background-color: #5ca7e0;
+    .-small-size {
+    	width: 100%;
+    	max-width: 747px;
+    	.head-section {
+    	.logo {
+    		padding: 35px 0 16px 0;
+    		text-align: center;
+    		img {
+
+    			}
+    		}
+    		h1 {
+    			font-family: 'Bevan', cursive;
+			    font-size: 27px;
+			    color: #262626;
+			    text-transform: uppercase;
+			    text-align: center;
+			    font-weight: normal;
+			    padding: 0 0 13px 0;
+			    margin: 0;
+			    line-height: 40px;
+    		}
+    		h2 {
+    			font-family: 'Domine', serif;
+			    font-size: 20px;
+			    color: #262626;
+			    text-align: center;
+			    background: url(../img/video_heading.png) no-repeat center top;
+			    line-height: 31px;
+			    padding: 9px 0 21px;
+			    background-size: 100%;
+			    @media (max-width:650px) {
+			    	font-size: 17px;
+			    	line-height: 25px;
+			    }
+			    @media (max-width:650px) {
+			    	font-size: 16px;
+			    	line-height: 18px;
+			    }
+			    @media (max-width:480px) {
+			    	font-size: 12px;
+			    	line-height: 10px;
+			    }
+    		}
+    	}
+    	.main-section {
+    		background: #fff;
+		    border-radius: 0 0 10px 10px;
+		    margin: 0 0 90px 0;
+    		.video {
+
+    		}
+    		.content-main {
+    			margin: 0;
+    			padding: 36px 0 10px 0;
+    			p {
+    				text-align: center;
+				    font-family: 'Domine', serif;
+				    font-size: 20px;
+				    color: #1c1e20;
+				    display: block;
+				    font-weight: 400;
+				    padding: 0 50px 15px;
+				    line-height: 32px;
+    			}
+    			h2 {
+    				    font-family: 'Caveat', cursive;
+					    font-size: 56px;
+					    color: #1c1e20;
+					    background: url(../img/heading-bg1.png) no-repeat center top;
+					    text-align: center;
+					    display: block;
+					    line-height: 52px;
+					    padding: 0 0 10px 0;
+					    font-weight: 700;
+					    margin: 0 0 25px 0;
+					    @media (max-width:767px) {
+					    	font-size: 46px;
+					    }
+					    @media (max-width:500px) {
+					    	  font-size: 25px;
+					    }
+    			}
+    			h3 {
+    				    text-align: center;
+					    font-family: 'Domine', serif;
+					    font-size: 33px;
+					    color: #1c1e20;
+					    display: block;
+					    font-weight: 700;
+					    line-height: 52px;
+					    padding: 4px 10px 22px;
+    			}
+    		}
+    		.startup {
+    			margin: 0;
+			    padding: 22px 0 0 0;
+			    text-align: center;
+			    display: inline-block;
+			    ul {
+			    	float: left;
+				    display: inline-block;
+				    padding: 0;
+				    margin: 0;
+				    width: 100%;
+				    li {
+				    	float: left;
+					    display: inline-block;
+					    padding: 0;
+					    margin: 0px 15px 0 10px;
+					    width: 340px;
+					    @media (max-width:767px) {
+					    	float: none;
+					    }
+					    &.last {
+					    	margin: 0 !important;
+					    	@media (max-width:767px) {
+					    	float: none;
+					    	padding-top: 15px;
+					    	}
+					    }
+					    .pro_img1 {
+					    	display: block;
+    						border-radius: 10px;
+    						color: #000;
+						    text-decoration: none;
+						    outline: 0 none;
+					    }
+					    h2 {
+					    	text-align: center;
+						    font-family: 'Domine', serif;
+						    font-size: 25.88px;
+						    color: #1c1e20;
+						    display: block;
+						    font-weight: 700;
+						    line-height: 30px;
+						    background: url(../img/shape1.png) no-repeat center top;
+						    padding: 15px 0 0 0;
+						    margin: 12px 0 13px 0;
+						    span {
+						    	  font-family: 'Caveat', cursive;
+						    }
+					    }
+					    p {
+					    	text-align: center;
+						    font-family: 'Domine', serif;
+						    font-size: 17px;
+						    color: #1c1e20;
+						    display: block;
+						    font-weight: 400;
+						    line-height: 24px;
+						    padding: 0 29px;
+						    margin: 0 0 19px 0;
+						    a {
+						    	text-decoration: underline;
+    							color: #2c7cc8;
+    							&:hover {
+    								text-decoration: none;
+    							}
+						    }
+					    }
+					    .ssa {
+							width: 20px;
+							padding: 0;
+						    margin: 0 auto;
+						    width: 340px;
+						    display: block;
+						    a {
+						    	&.btn {
+							    display: block;
+							    background: url(../img/clieck_button.png) no-repeat center top;
+							    font-family: 'Domine', serif;
+							    font-size: 21.15px;
+							    color: #ffffff;
+							    font-weight: 700;
+							    text-align: center;
+							    line-height: 20px;
+							    text-transform: uppercase;
+							    text-shadow: 0px 2px 5px #cf4c17;
+							    padding: 15px 0 14px;
+						   	 	}
+						   	 	span {
+						   	 		  font-size: 14.15px;
+   									 display: block;
+						   	 	}
+						    }
+						    
+						}
+				    }
+			    }
+    		}
+    		.choose {
+			    padding: 41px 0 53px 0;
+			    margin: 0;
+			    text-align: center;
+			    h2 {
+			    	text-align: center;
+				    font-family: 'Domine', serif;
+				    font-size: 43.64px;
+				    color: #311e15;
+				    display: block;
+				    font-weight: 700;
+				    line-height: 33.42px;
+				    padding: 0 0 10px 0;
+				    @media (max-width:767px) {
+				    	font-size: 31.64px;
+				    }
+			    }
+			    p {
+			    	text-align: center;
+				    font-family: 'Domine', serif;
+				    font-size: 19px;
+				    color: #311e15;
+				    display: block;
+				    font-weight: 400;
+				    line-height: 30px;
+				    max-width: 70%;
+				    margin: 0 auto;
+				    padding: 14px 0 26px 0;
+			    }
+			    .blue-btn {
+				    text-align: center;
+				    background: url(../img/ready_bg.png) no-repeat center top;
+				    font-family: 'Domine', serif;
+				    font-size: 20px;
+				    color: #ffffff;
+				    display: block;
+				    font-weight: 700;
+				    line-height: 25px;
+				    text-shadow: 0px 2px 5px #375ba3;
+				    display: inline-block;
+				    padding: 22px 59px;
+				    &:hover {
+				    	background-position: center -69px;
+				    }
+			    }
+    		}
+    	}
+    }
+}
+

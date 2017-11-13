@@ -1,6 +1,11 @@
 // STYLES FOR PAGE http://www.homebasedhero.com/cn/under.html#
 .money-page {
-	background: url(../img/bg.jpg) repeat-x;
+	
+	.money-main-wrap {
+		background: url(../img/bg.jpg) no-repeat;
+	background-size: cover;
+	height: auto;
+	}
 	.stop-block {
 			text-align: center;
 			margin-top: 20px;
@@ -18,24 +23,34 @@
 			    text-align: left;
 			    padding-right: 30px;
 			    padding-left: 30px;
-			    font-family: 'Andada', serif;
+			    font-family: none;
 			    font-weight: 500;
 			}
 			h1 {
-				font-size: 35.36px;
+				font-size: 32.36px;
 			    color: #311e15;
-			    font-family: 'Andada', serif;
+			    font-family: none;
 			    text-align: center;
 			    font-weight: 500;
+			    &.bold {
+			    	font-weight: bold;
+			    }
 			}
 			h2 {
 				background: url(../img/mark.png) no-repeat;
 			    background-size: 100% 100%;
 			    padding: 0 7px 0 7px;
 			    font-size: 24px;
-			    font-family: 'Andada', serif;
+			    font-family: none;
 			    font-weight: bold;
 			    text-align: center;
+			    &.send {
+			    	font-size: 45px;
+				    text-align: center;
+				    font-family: none;
+				    font-weight: bold;
+				    margin-bottom: 0;
+			    }
 			}
 			.button-block {
 				.btn {
@@ -51,6 +66,10 @@
 			    text-align: center;
 			    position: relative;
 			    margin-top: 20px;
+			    @media (max-width: 1199px) {
+			    	width: 100%;
+			    	background-size: 100%;
+			    }
 			    iframe {
 			    	width: 596px;
 				    height: 335px;
@@ -72,6 +91,11 @@
 				    z-index: 1;
 				    left: -39px;
 				    top: -30px;
+				     @media (max-width: 1199px) {
+			    	width: 100%;
+			    	background-size: 100%;
+			    	left: 0;
+			    	}
 				}
 			}
 			.cant-choose-section {
@@ -98,6 +122,134 @@
 				    text-align: center;
 				    margin-top: 20px;
 				}
+			}
+		}
+		.custom {
+			    margin: 0 -120px 0 -120px;
+			    @media (max-width:767px) {
+			    	margin: 0;
+			    }
+			    .programs-child {
+					a {
+						button {
+							        background: linear-gradient(to bottom,#f7dfa5,#f0c14b);
+								    border-color: #a88734 #9c7e31 #846a29;
+								    box-shadow: 0 1px 0 rgba(255,255,255,.4) inset;
+								    width: 100%;
+								    height: 82px;
+								    border-style: solid;
+								    border-width: 1px;
+								    cursor: pointer;
+								    border-radius: 3px;
+								    text-decoration: none;
+								    color: #111;
+								    font-size: 23px;
+								    font-weight: 700;
+								    margin-top: 5px;
+								    &:hover {
+								    	    border-color: #a88734 #9c7e31 #846a29;
+    										background: linear-gradient(to bottom,#f5d78e,#eeb933);
+								    }
+								    &:focus {
+								    	box-shadow: 0 0 8px 4px rgba(228,121,17,.5);
+    									outline: none;
+								    }
+								     &:active {
+								    	    border-color: #a88734 #9c7e31 #846a29;
+   											background: linear-gradient(to bottom,#f5d78e,#eeb933);
+								    }
+								    @media (max-width: 767px) {
+								    	margin-bottom: 15px;
+								    }
+						}
+					}
+			    }
+			    .programs-child-image {
+				    	@media (max-width:767px) {
+				    	text-align: center;
+				    	}
+				    }
+			    .programs-child-content {
+			    	height: 350px;
+				    padding: 25px 0 10px 0;
+				    text-align: center;
+				    position: relative;
+				    background: #fbf8ee;
+				    border-radius: 5px;
+				    @media (max-width:767px) {
+				    	height: auto;
+				    }
+				    
+				    a {
+				    	.mark-yellow {
+				    	    background: url(../img/mark.png) no-repeat;
+					    background-size: 100% 100%;
+					    padding: 0 7px 0 7px;
+					    color: #311e15;
+					    font-size: 25px;
+					    font-family: none;
+					    font-weight: bold;
+					    text-align: center;
+					    text-transform: uppercase;
+				   	 }
+				   	 .charter {
+				   	 	    font-style: italic;
+						    font-weight: bold;
+						    font-family: none;
+						    font-size: 21.89px;
+						    text-transform: uppercase;
+						    color: #000;
+						    text-decoration: none;
+				   	 }
+				    }
+				    article {
+				    	font-size: 18px;
+    					padding: 0 10px 0 10px;
+    					a {
+    						color: #428bca;
+    					}
+				    }
+				    @media(min-width: 767px) and (max-width: 991px) {
+				    	min-height: 430px;
+				    }
+			    }
+		}
+		.choose-block {
+			text-align: center;
+			padding-left: 50px;
+			padding-right: 50px;
+			margin-top: 60px;
+			padding-bottom: 50px;
+			.button-block {
+				margin-top: 15px;
+			}
+			h1 {
+					border-top: 1px solid #eee;
+					padding-top: 60px;
+				    color: #311e15;
+				    font-size: 45.92px;
+				    text-transform: uppercase;
+				    letter-spacing: -2px;
+				    margin: 0;
+				    font-weight: 500;
+			}
+			h2 {
+				    font-size: 29.29px;
+				    display: inline-block;
+				    text-transform: uppercase;
+				    color: #311e15;
+				    font-family: 'Andada', serif;
+				    padding: 0 10px 0 10px;
+				    margin: 0;
+				    background: url(../img/mark.png) no-repeat;
+    				background-size: 100% 100%;
+    				font-weight: 500;
+			}
+			p {
+				font-size: 22px;
+			    color: #311e15;
+			    text-align: center;
+			    margin-top: 20px;
 			}
 		}
 	}
