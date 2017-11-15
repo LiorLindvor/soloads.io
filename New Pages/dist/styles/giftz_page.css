@@ -2580,225 +2580,211 @@ img {
   .btn.-yellow:hover {
     box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2); }
 
-.money-page .money-main-wrap {
-  background: url(../img/bg.jpg) no-repeat;
-  background-size: cover;
-  height: auto; }
-
-.money-page .stop-block {
-  text-align: center;
-  margin-top: 20px; }
-
-.money-page .main-container {
-  background: #fff;
-  border-radius: 5px;
-  margin-top: -50px;
-  padding-top: 50px;
-  margin-bottom: 50px; }
-  .money-page .main-container .content-block {
-    padding-bottom: 50px; }
-    .money-page .main-container .content-block .simple-text {
-      font-size: 22px;
-      text-align: left;
-      padding-right: 30px;
-      padding-left: 30px;
-      font-family: none;
-      font-weight: 500; }
-    .money-page .main-container .content-block h1 {
-      font-size: 32.36px;
-      color: #311e15;
-      font-family: none;
-      text-align: center;
-      font-weight: 500; }
-      .money-page .main-container .content-block h1.bold {
-        font-weight: bold; }
-    .money-page .main-container .content-block h2 {
-      background: url(../img/mark.png) no-repeat;
-      background-size: 100% 100%;
-      padding: 0 7px 0 7px;
-      font-size: 24px;
-      font-family: none;
-      font-weight: bold;
-      text-align: center; }
-      .money-page .main-container .content-block h2.send {
-        font-size: 45px;
-        text-align: center;
-        font-family: none;
-        font-weight: bold;
-        margin-bottom: 0; }
-    .money-page .main-container .content-block .button-block .btn {
-      padding: 10px;
-      font-family: 'Andada', serif; }
-    .money-page .main-container .content-block .body-inner-video {
-      background: url(../img/video.png) no-repeat;
-      width: 649px;
-      height: 378px;
-      margin: 0 auto;
-      text-align: center;
-      position: relative;
-      margin-top: 20px; }
-      @media (max-width: 1199px) {
-        .money-page .main-container .content-block .body-inner-video {
+.giftz-page {
+  background: url(../img/bod.png) repeat-y; }
+  .giftz-page .-small-size {
+    width: 100%;
+    max-width: 943px; }
+    .giftz-page .-small-size .content-wrap {
+      width: 771px;
+      background: #ffffff;
+      margin: 0 0 0 92px;
+      padding: 0 0 92px 0; }
+      @media (max-width: 650px) {
+        .giftz-page .-small-size .content-wrap iframe {
+          width: 100%; } }
+      .giftz-page .-small-size .content-wrap .header {
+        padding-bottom: 40px; }
+      @media (max-width: 767px) {
+        .giftz-page .-small-size .content-wrap {
           width: 100%;
-          background-size: 100%; } }
-      @media (max-width: 768px) {
-        .money-page .main-container .content-block .body-inner-video {
-          background: none; } }
-      .money-page .main-container .content-block .body-inner-video iframe {
-        width: 596px;
-        height: 335px;
-        border-radius: 10px;
-        -moz-border-radius: 10px;
-        -webkit-border-radius: 10px;
-        border: 10px solid #000;
-        position: absolute;
-        z-index: 2;
-        left: 33px;
-        top: 21px; }
-        @media (max-width: 1199px) {
-          .money-page .main-container .content-block .body-inner-video iframe {
-            width: 100%;
-            position: initial; } }
-      .money-page .main-container .content-block .body-inner-video .arrow-main {
-        background: url(../img/arrow.png) no-repeat;
-        height: 155px;
-        z-index: 2;
-        width: 729px;
-        position: absolute;
-        z-index: 1;
-        left: -39px;
-        top: -30px; }
-        @media (max-width: 1199px) {
-          .money-page .main-container .content-block .body-inner-video .arrow-main {
-            width: 100%;
-            background-size: 100%;
-            left: 0; } }
-        @media (max-width: 768px) {
-          .money-page .main-container .content-block .body-inner-video .arrow-main {
-            background: none; } }
-    .money-page .main-container .content-block .cant-choose-section h1 {
-      color: #311e15;
-      font-size: 34px;
-      text-transform: uppercase;
-      letter-spacing: -2px;
-      margin: 0; }
-    .money-page .main-container .content-block .cant-choose-section h2 {
-      font-size: 29.29px;
-      text-transform: uppercase;
-      color: #311e15;
-      font-family: 'Andada', serif;
-      padding: 0 10px 0 10px;
-      margin: 0 auto;
-      width: 150px;
-      display: block; }
-    .money-page .main-container .content-block .cant-choose-section p {
-      font-size: 22px;
-      color: #311e15;
-      text-align: center;
-      margin-top: 20px; }
-  .money-page .main-container .custom {
-    margin: 0 -120px 0 -120px; }
-    @media (max-width: 767px) {
-      .money-page .main-container .custom {
-        margin: 0; } }
-    .money-page .main-container .custom .programs-child a button {
-      background: linear-gradient(to bottom, #f7dfa5, #f0c14b);
-      border-color: #a88734 #9c7e31 #846a29;
-      box-shadow: 0 1px 0 rgba(255, 255, 255, 0.4) inset;
-      width: 100%;
-      height: 82px;
-      border-style: solid;
-      border-width: 1px;
-      cursor: pointer;
-      border-radius: 3px;
-      text-decoration: none;
-      color: #111;
-      font-size: 23px;
-      font-weight: 700;
-      margin-top: 5px; }
-      .money-page .main-container .custom .programs-child a button:hover {
-        border-color: #a88734 #9c7e31 #846a29;
-        background: linear-gradient(to bottom, #f5d78e, #eeb933); }
-      .money-page .main-container .custom .programs-child a button:focus {
-        box-shadow: 0 0 8px 4px rgba(228, 121, 17, 0.5);
-        outline: none; }
-      .money-page .main-container .custom .programs-child a button:active {
-        border-color: #a88734 #9c7e31 #846a29;
-        background: linear-gradient(to bottom, #f5d78e, #eeb933); }
-      @media (max-width: 767px) {
-        .money-page .main-container .custom .programs-child a button {
-          margin-bottom: 15px; } }
-    @media (max-width: 767px) {
-      .money-page .main-container .custom .programs-child-image {
-        text-align: center; } }
-    .money-page .main-container .custom .programs-child-content {
-      height: 350px;
-      padding: 25px 0 10px 0;
-      text-align: center;
-      position: relative;
-      background: #fbf8ee;
-      border-radius: 5px; }
-      @media (max-width: 767px) {
-        .money-page .main-container .custom .programs-child-content {
-          height: auto; } }
-      .money-page .main-container .custom .programs-child-content a .mark-yellow {
-        background: url(../img/mark.png) no-repeat;
-        background-size: 100% 100%;
-        padding: 0 7px 0 7px;
-        color: #311e15;
-        font-size: 25px;
-        font-family: none;
-        font-weight: bold;
+          margin: 0;
+          padding: 0; } }
+      @media (min-width: 767px) and (max-width: 1024px) {
+        .giftz-page .-small-size .content-wrap {
+          width: auto;
+          margin: 0px;
+          padding: 0px; } }
+      .giftz-page .-small-size .content-wrap .header h1 {
+        font-family: 'Roboto';
+        font-weight: 900;
+        font-size: 56px;
+        color: #000000;
         text-align: center;
-        text-transform: uppercase; }
-      .money-page .main-container .custom .programs-child-content a .charter {
-        font-style: italic;
+        line-height: 57px;
+        margin: 0px; }
+      .giftz-page .-small-size .content-wrap .header h2 {
+        font-family: 'Gochi Hand';
+        font-size: 53px;
+        color: #2575c0;
+        font-weight: normal;
+        text-align: center;
+        line-height: 55px;
+        padding: 1px 19px 6px 0;
+        margin: 0; }
+      .giftz-page .-small-size .content-wrap .header .surprice {
+        padding-top: 40px;
+        padding-right: 70px; }
+        @media (max-width: 600px) {
+          .giftz-page .-small-size .content-wrap .header .surprice {
+            padding-top: 15px;
+            padding-right: 0px;
+            display: flex;
+            flex-direction: column;
+            align-items: center; } }
+      .giftz-page .-small-size .content-wrap .header h5 {
+        padding: 40px 0 0 0;
+        font-family: 'Gochi Hand';
+        font-size: 32px;
+        color: #152839;
+        text-align: center;
+        font-weight: normal;
+        margin: 0px; }
+      .giftz-page .-small-size .content-wrap .product-wrap {
+        width: 945px;
+        margin: 50px auto 0px auto;
+        display: inline-block;
+        margin-left: -85px; }
+        @media (max-width: 1025px) {
+          .giftz-page .-small-size .content-wrap .product-wrap {
+            margin-left: 0px;
+            width: 100%; } }
+        .giftz-page .-small-size .content-wrap .product-wrap .product-1 {
+          width: 304px;
+          border: 2px solid #e9eff3;
+          text-align: center;
+          padding: 0 0 23px 0;
+          float: left;
+          margin: 0 10px 0 0;
+          position: relative;
+          border-radius: 3px;
+          min-height: 800px;
+          background-color: white; }
+          .giftz-page .-small-size .content-wrap .product-wrap .product-1 p {
+            min-height: 338px; }
+          @media (max-width: 1025px) {
+            .giftz-page .-small-size .content-wrap .product-wrap .product-1 {
+              float: none;
+              margin: 15px auto; } }
+          .giftz-page .-small-size .content-wrap .product-wrap .product-1 .access {
+            display: block;
+            width: 252px;
+            background: url(../img/acess_bg.png) repeat-x;
+            color: #ffffff;
+            font-size: 17px;
+            padding: 14px 0 13px 0;
+            border-radius: 4px;
+            margin: 25px auto 0px auto; }
+            .giftz-page .-small-size .content-wrap .product-wrap .product-1 .access:hover {
+              color: #ffffff;
+              text-decoration: none;
+              background: url(../img/acess_bg_hover.png) repeat-x; }
+          .giftz-page .-small-size .content-wrap .product-wrap .product-1 .logo_1 img {
+            margin-top: 31px;
+            margin-bottom: 34px; }
+          .giftz-page .-small-size .content-wrap .product-wrap .product-1 p {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 17px;
+            color: #000000;
+            display: inline-block;
+            width: 255px;
+            line-height: 26px; }
+            .giftz-page .-small-size .content-wrap .product-wrap .product-1 p a {
+              color: #2d76e3;
+              text-decoration: underline;
+              word-break: break-all; }
+          .giftz-page .-small-size .content-wrap .product-wrap .product-1 .arrow_1 {
+            position: absolute;
+            top: -106px;
+            left: 179px; }
+            @media (max-width: 1025px) {
+              .giftz-page .-small-size .content-wrap .product-wrap .product-1 .arrow_1 {
+                display: none; } }
+          .giftz-page .-small-size .content-wrap .product-wrap .product-1 .arrow_2 {
+            position: absolute;
+            top: -85px;
+            left: 139px; }
+            @media (max-width: 1025px) {
+              .giftz-page .-small-size .content-wrap .product-wrap .product-1 .arrow_2 {
+                display: none; } }
+          .giftz-page .-small-size .content-wrap .product-wrap .product-1 .arrow_3 {
+            position: absolute;
+            top: -107px;
+            left: 12px; }
+            @media (max-width: 1025px) {
+              .giftz-page .-small-size .content-wrap .product-wrap .product-1 .arrow_3 {
+                display: none; } }
+      .giftz-page .-small-size .content-wrap .clock {
+        background: url(../img/clock_icon.png) no-repeat 53px 75px;
+        padding: 28px 0 0 196px; }
+        @media (max-width: 766px) {
+          .giftz-page .-small-size .content-wrap .clock {
+            background: 0;
+            padding: 25px;
+            text-align: center; } }
+        .giftz-page .-small-size .content-wrap .clock p {
+          font-family: 'Gochi Hand';
+          font-size: 26px;
+          color: #333f4a;
+          position: relative; }
+          .giftz-page .-small-size .content-wrap .clock p span {
+            position: relative;
+            top: 5px;
+            left: 0; }
+        .giftz-page .-small-size .content-wrap .clock small {
+          background: url(../img/clock_arrow.png) no-repeat center;
+          padding: 53px 0 0 0;
+          display: inline-block;
+          width: 400px; }
+          @media (max-width: 767px) {
+            .giftz-page .-small-size .content-wrap .clock small {
+              width: 100%; } }
+      .giftz-page .-small-size .content-wrap p .select {
+        text-align: center;
+        display: block;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 22px;
         font-weight: bold;
-        font-family: none;
-        font-size: 21.89px;
-        text-transform: uppercase;
-        color: #000;
-        text-decoration: none; }
-      .money-page .main-container .custom .programs-child-content article {
-        font-size: 18px;
-        padding: 0 10px 0 10px; }
-        .money-page .main-container .custom .programs-child-content article a {
-          color: #428bca; }
-      @media (min-width: 767px) and (max-width: 991px) {
-        .money-page .main-container .custom .programs-child-content {
-          min-height: 430px; } }
-  .money-page .main-container .choose-block {
-    text-align: center;
-    padding-left: 50px;
-    padding-right: 50px;
-    margin-top: 60px;
-    padding-bottom: 50px; }
-    .money-page .main-container .choose-block .button-block {
-      margin-top: 15px; }
-    .money-page .main-container .choose-block h1 {
-      border-top: 1px solid #eee;
-      padding-top: 60px;
-      color: #311e15;
-      font-size: 45.92px;
-      text-transform: uppercase;
-      letter-spacing: -2px;
-      margin: 0;
-      font-weight: 500; }
-    .money-page .main-container .choose-block h2 {
-      font-size: 29.29px;
-      display: inline-block;
-      text-transform: uppercase;
-      color: #311e15;
-      font-family: 'Andada', serif;
-      padding: 0 10px 0 10px;
-      margin: 0;
-      background: url(../img/mark.png) no-repeat;
-      background-size: 100% 100%;
-      font-weight: 500; }
-    .money-page .main-container .choose-block p {
-      font-size: 22px;
-      color: #311e15;
-      text-align: center;
-      margin-top: 20px; }
+        color: #2d76e3;
+        text-decoration: underline;
+        text-align: center;
+        padding: 40px 0 16px 0; }
+        .giftz-page .-small-size .content-wrap p .select:hover {
+          color: #2d76e3;
+          text-decoration: underline;
+          font-family: Arial, Helvetica, sans-serif;
+          font-size: 24px; }
+      .giftz-page .-small-size .content-wrap .couple {
+        margin: 28px 0 0 39px; }
+        @media (max-width: 767px) {
+          .giftz-page .-small-size .content-wrap .couple {
+            margin: 0px 10px;
+            text-align: center; } }
+        .giftz-page .-small-size .content-wrap .couple p {
+          font-family: Arial, Helvetica, sans-serif;
+          font-size: 24px;
+          font-weight: normal;
+          color: #000000;
+          line-height: normal;
+          margin: 16px 48px 0 48px;
+          letter-spacing: normal; }
+          @media (max-width: 767px) {
+            .giftz-page .-small-size .content-wrap .couple p {
+              margin: 0px 10px;
+              text-align: center; } }
+        .giftz-page .-small-size .content-wrap .couple a {
+          text-align: center;
+          display: block;
+          font-family: Arial, Helvetica, sans-serif;
+          font-size: 22px;
+          font-weight: bold;
+          color: #2d76e3;
+          text-decoration: underline;
+          text-align: center; }
+          .giftz-page .-small-size .content-wrap .couple a:hover {
+            color: #2d76e3;
+            text-decoration: underline;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 24px; }
 
-/*# sourceMappingURL=money_page.css.map */
+/*# sourceMappingURL=giftz_page.css.map */

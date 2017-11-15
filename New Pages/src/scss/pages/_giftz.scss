@@ -50,8 +50,12 @@
 		    	.surprice {
 		    		padding-top: 40px;
 		    		padding-right: 70px;
-		    		@media(max-width:490px) {
-		    			padding-top: 0px;
+		    		@media(max-width:600px) {
+		    			    padding-top: 15px;
+						    padding-right: 0px;
+						    display: flex;
+						    flex-direction: column;
+						    align-items: center;
 		    		}
 		    	}
 		    	h5 {
@@ -61,12 +65,12 @@
 				    color: #152839;
 				    text-align: center;
 				    font-weight: normal;
+				     margin: 0px;
 		    	}
 		    }
 	          .product-wrap {
 	          	width: 945px;
-			    margin: 0 auto;
-			    background: #ffffff;
+			    margin: 50px auto 0px auto;
 			    display: inline-block;
 			    margin-left: -85px;
 			    @media (max-width: 1025px) {
@@ -101,6 +105,11 @@
 							    padding: 14px 0 13px 0;
 							    border-radius: 4px;
 							    margin: 25px auto 0px auto;
+							    &:hover {
+							    	    color: #ffffff;
+									    text-decoration: none;
+									    background: url(../img/acess_bg_hover.png) repeat-x;
+							    }
 					    }
 						.logo_1 {
 							img {
@@ -214,6 +223,7 @@
 					    letter-spacing: normal;
 					    @media (max-width: 767px) {
 					    	margin: 0px 10px;
+					    	text-align: center;
 					    }
 	          		}
 	          		a {

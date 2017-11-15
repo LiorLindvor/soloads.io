@@ -1,10 +1,15 @@
 // STYLES FOR PAGE http://www.homebasedhero.com/cn/under.html#
 .hero-page {
-	color: #b1b1b1;
-    font-family: "Arial", Verdana, Tahoma;
-    font-size: 12px;
-    background: url(../img/body-bg.jpg) no-repeat center top;
-        background-color: #5ca7e0;
+        .hero-page-bg {
+        	color: #b1b1b1;
+		    font-family: "Arial", Verdana, Tahoma;
+		    font-size: 12px;
+		    background: url(../img/body-bg.jpg) no-repeat center center;
+		    background-size: cover;
+		    /* background-color: #5ca7e0; */
+		    height: auto;
+		    padding-bottom: 50px;
+        }
     .-small-size {
     	width: 100%;
     	max-width: 747px;
@@ -18,7 +23,7 @@
     		}
     		h1 {
     			font-family: 'Bevan', cursive;
-			    font-size: 27px;
+			    font-size: 26px;
 			    color: #262626;
 			    text-transform: uppercase;
 			    text-align: center;
@@ -55,7 +60,21 @@
 		    border-radius: 0 0 10px 10px;
 		    margin: 0 0 90px 0;
     		.video {
-
+				        width: 100%;
+					    // height: 449px;
+					    background: url(../img/video_arrows.png) no-repeat left top;
+					    /* left: -28px; */
+					    /* top: -15px; */
+					    z-index: 99;
+					    position: relative;
+					    /* margin-left: -40px; */
+					    video {
+					    	width: 100%;
+					    }
+					    // img {
+					    // 	    position: absolute;
+							  //   z-index: 5;
+					    // }
     		}
     		.content-main {
     			margin: 0;
@@ -97,6 +116,7 @@
 					    font-weight: 700;
 					    line-height: 52px;
 					    padding: 4px 10px 22px;
+					    margin-bottom: 0px;
     			}
     		}
     		.startup {
@@ -146,6 +166,7 @@
 						    margin: 12px 0 13px 0;
 						    span {
 						    	  font-family: 'Caveat', cursive;
+						    	  display: block;
 						    }
 					    }
 					    p {
@@ -185,6 +206,9 @@
 							    text-transform: uppercase;
 							    text-shadow: 0px 2px 5px #cf4c17;
 							    padding: 15px 0 14px;
+							    &:hover {
+							    	background-position: center -69px;
+							    	}
 						   	 	}
 						   	 	span {
 						   	 		  font-size: 14.15px;
@@ -237,6 +261,21 @@
 				    text-shadow: 0px 2px 5px #375ba3;
 				    display: inline-block;
 				    padding: 22px 59px;
+				    @media (max-width: 767px) {
+				    	    font-size: 18px;
+						    width: 90%;
+						    background-size: 100% 200%;
+						    padding: 17px 0 16px;
+				    }
+				    @media (max-width: 599px) {
+				    	    font-size: 13px;
+						    width: 90%;
+						    background-size: 100% 200%;
+						    padding: 17px 0 16px;
+				    }
+				    @media (max-width: 479px) {
+				    	width: 95%;
+				    }
 				    &:hover {
 				    	background-position: center -69px;
 				    }

@@ -2580,225 +2580,245 @@ img {
   .btn.-yellow:hover {
     box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2); }
 
-.money-page .money-main-wrap {
-  background: url(../img/bg.jpg) no-repeat;
+.hero-page .hero-page-bg {
+  color: #b1b1b1;
+  font-family: "Arial", Verdana, Tahoma;
+  font-size: 12px;
+  background: url(../img/body-bg.jpg) no-repeat center center;
   background-size: cover;
-  height: auto; }
+  /* background-color: #5ca7e0; */
+  height: auto;
+  padding-bottom: 50px; }
 
-.money-page .stop-block {
-  text-align: center;
-  margin-top: 20px; }
-
-.money-page .main-container {
-  background: #fff;
-  border-radius: 5px;
-  margin-top: -50px;
-  padding-top: 50px;
-  margin-bottom: 50px; }
-  .money-page .main-container .content-block {
-    padding-bottom: 50px; }
-    .money-page .main-container .content-block .simple-text {
-      font-size: 22px;
-      text-align: left;
-      padding-right: 30px;
-      padding-left: 30px;
-      font-family: none;
-      font-weight: 500; }
-    .money-page .main-container .content-block h1 {
-      font-size: 32.36px;
-      color: #311e15;
-      font-family: none;
-      text-align: center;
-      font-weight: 500; }
-      .money-page .main-container .content-block h1.bold {
-        font-weight: bold; }
-    .money-page .main-container .content-block h2 {
-      background: url(../img/mark.png) no-repeat;
-      background-size: 100% 100%;
-      padding: 0 7px 0 7px;
-      font-size: 24px;
-      font-family: none;
-      font-weight: bold;
-      text-align: center; }
-      .money-page .main-container .content-block h2.send {
-        font-size: 45px;
-        text-align: center;
-        font-family: none;
-        font-weight: bold;
-        margin-bottom: 0; }
-    .money-page .main-container .content-block .button-block .btn {
-      padding: 10px;
-      font-family: 'Andada', serif; }
-    .money-page .main-container .content-block .body-inner-video {
-      background: url(../img/video.png) no-repeat;
-      width: 649px;
-      height: 378px;
-      margin: 0 auto;
-      text-align: center;
-      position: relative;
-      margin-top: 20px; }
-      @media (max-width: 1199px) {
-        .money-page .main-container .content-block .body-inner-video {
-          width: 100%;
-          background-size: 100%; } }
-      @media (max-width: 768px) {
-        .money-page .main-container .content-block .body-inner-video {
-          background: none; } }
-      .money-page .main-container .content-block .body-inner-video iframe {
-        width: 596px;
-        height: 335px;
-        border-radius: 10px;
-        -moz-border-radius: 10px;
-        -webkit-border-radius: 10px;
-        border: 10px solid #000;
-        position: absolute;
-        z-index: 2;
-        left: 33px;
-        top: 21px; }
-        @media (max-width: 1199px) {
-          .money-page .main-container .content-block .body-inner-video iframe {
-            width: 100%;
-            position: initial; } }
-      .money-page .main-container .content-block .body-inner-video .arrow-main {
-        background: url(../img/arrow.png) no-repeat;
-        height: 155px;
-        z-index: 2;
-        width: 729px;
-        position: absolute;
-        z-index: 1;
-        left: -39px;
-        top: -30px; }
-        @media (max-width: 1199px) {
-          .money-page .main-container .content-block .body-inner-video .arrow-main {
-            width: 100%;
-            background-size: 100%;
-            left: 0; } }
-        @media (max-width: 768px) {
-          .money-page .main-container .content-block .body-inner-video .arrow-main {
-            background: none; } }
-    .money-page .main-container .content-block .cant-choose-section h1 {
-      color: #311e15;
-      font-size: 34px;
-      text-transform: uppercase;
-      letter-spacing: -2px;
-      margin: 0; }
-    .money-page .main-container .content-block .cant-choose-section h2 {
-      font-size: 29.29px;
-      text-transform: uppercase;
-      color: #311e15;
-      font-family: 'Andada', serif;
-      padding: 0 10px 0 10px;
-      margin: 0 auto;
-      width: 150px;
-      display: block; }
-    .money-page .main-container .content-block .cant-choose-section p {
-      font-size: 22px;
-      color: #311e15;
-      text-align: center;
-      margin-top: 20px; }
-  .money-page .main-container .custom {
-    margin: 0 -120px 0 -120px; }
-    @media (max-width: 767px) {
-      .money-page .main-container .custom {
-        margin: 0; } }
-    .money-page .main-container .custom .programs-child a button {
-      background: linear-gradient(to bottom, #f7dfa5, #f0c14b);
-      border-color: #a88734 #9c7e31 #846a29;
-      box-shadow: 0 1px 0 rgba(255, 255, 255, 0.4) inset;
-      width: 100%;
-      height: 82px;
-      border-style: solid;
-      border-width: 1px;
-      cursor: pointer;
-      border-radius: 3px;
-      text-decoration: none;
-      color: #111;
-      font-size: 23px;
-      font-weight: 700;
-      margin-top: 5px; }
-      .money-page .main-container .custom .programs-child a button:hover {
-        border-color: #a88734 #9c7e31 #846a29;
-        background: linear-gradient(to bottom, #f5d78e, #eeb933); }
-      .money-page .main-container .custom .programs-child a button:focus {
-        box-shadow: 0 0 8px 4px rgba(228, 121, 17, 0.5);
-        outline: none; }
-      .money-page .main-container .custom .programs-child a button:active {
-        border-color: #a88734 #9c7e31 #846a29;
-        background: linear-gradient(to bottom, #f5d78e, #eeb933); }
-      @media (max-width: 767px) {
-        .money-page .main-container .custom .programs-child a button {
-          margin-bottom: 15px; } }
-    @media (max-width: 767px) {
-      .money-page .main-container .custom .programs-child-image {
-        text-align: center; } }
-    .money-page .main-container .custom .programs-child-content {
-      height: 350px;
-      padding: 25px 0 10px 0;
-      text-align: center;
-      position: relative;
-      background: #fbf8ee;
-      border-radius: 5px; }
-      @media (max-width: 767px) {
-        .money-page .main-container .custom .programs-child-content {
-          height: auto; } }
-      .money-page .main-container .custom .programs-child-content a .mark-yellow {
-        background: url(../img/mark.png) no-repeat;
-        background-size: 100% 100%;
-        padding: 0 7px 0 7px;
-        color: #311e15;
-        font-size: 25px;
-        font-family: none;
-        font-weight: bold;
-        text-align: center;
-        text-transform: uppercase; }
-      .money-page .main-container .custom .programs-child-content a .charter {
-        font-style: italic;
-        font-weight: bold;
-        font-family: none;
-        font-size: 21.89px;
-        text-transform: uppercase;
-        color: #000;
-        text-decoration: none; }
-      .money-page .main-container .custom .programs-child-content article {
-        font-size: 18px;
-        padding: 0 10px 0 10px; }
-        .money-page .main-container .custom .programs-child-content article a {
-          color: #428bca; }
-      @media (min-width: 767px) and (max-width: 991px) {
-        .money-page .main-container .custom .programs-child-content {
-          min-height: 430px; } }
-  .money-page .main-container .choose-block {
+.hero-page .-small-size {
+  width: 100%;
+  max-width: 747px; }
+  .hero-page .-small-size .head-section .logo {
+    padding: 35px 0 16px 0;
+    text-align: center; }
+  .hero-page .-small-size .head-section h1 {
+    font-family: 'Bevan', cursive;
+    font-size: 26px;
+    color: #262626;
+    text-transform: uppercase;
     text-align: center;
-    padding-left: 50px;
-    padding-right: 50px;
-    margin-top: 60px;
-    padding-bottom: 50px; }
-    .money-page .main-container .choose-block .button-block {
-      margin-top: 15px; }
-    .money-page .main-container .choose-block h1 {
-      border-top: 1px solid #eee;
-      padding-top: 60px;
-      color: #311e15;
-      font-size: 45.92px;
-      text-transform: uppercase;
-      letter-spacing: -2px;
+    font-weight: normal;
+    padding: 0 0 13px 0;
+    margin: 0;
+    line-height: 40px; }
+  .hero-page .-small-size .head-section h2 {
+    font-family: 'Domine', serif;
+    font-size: 20px;
+    color: #262626;
+    text-align: center;
+    background: url(../img/video_heading.png) no-repeat center top;
+    line-height: 31px;
+    padding: 9px 0 21px;
+    background-size: 100%; }
+    @media (max-width: 650px) {
+      .hero-page .-small-size .head-section h2 {
+        font-size: 17px;
+        line-height: 25px; } }
+    @media (max-width: 650px) {
+      .hero-page .-small-size .head-section h2 {
+        font-size: 16px;
+        line-height: 18px; } }
+    @media (max-width: 480px) {
+      .hero-page .-small-size .head-section h2 {
+        font-size: 12px;
+        line-height: 10px; } }
+  .hero-page .-small-size .main-section {
+    background: #fff;
+    border-radius: 0 0 10px 10px;
+    margin: 0 0 90px 0; }
+    .hero-page .-small-size .main-section .video {
+      width: 100%;
+      background: url(../img/video_arrows.png) no-repeat left top;
+      /* left: -28px; */
+      /* top: -15px; */
+      z-index: 99;
+      position: relative;
+      /* margin-left: -40px; */ }
+      .hero-page .-small-size .main-section .video video {
+        width: 100%; }
+    .hero-page .-small-size .main-section .content-main {
       margin: 0;
-      font-weight: 500; }
-    .money-page .main-container .choose-block h2 {
-      font-size: 29.29px;
-      display: inline-block;
-      text-transform: uppercase;
-      color: #311e15;
-      font-family: 'Andada', serif;
-      padding: 0 10px 0 10px;
+      padding: 36px 0 10px 0; }
+      .hero-page .-small-size .main-section .content-main p {
+        text-align: center;
+        font-family: 'Domine', serif;
+        font-size: 20px;
+        color: #1c1e20;
+        display: block;
+        font-weight: 400;
+        padding: 0 50px 15px;
+        line-height: 32px; }
+      .hero-page .-small-size .main-section .content-main h2 {
+        font-family: 'Caveat', cursive;
+        font-size: 56px;
+        color: #1c1e20;
+        background: url(../img/heading-bg1.png) no-repeat center top;
+        text-align: center;
+        display: block;
+        line-height: 52px;
+        padding: 0 0 10px 0;
+        font-weight: 700;
+        margin: 0 0 25px 0; }
+        @media (max-width: 767px) {
+          .hero-page .-small-size .main-section .content-main h2 {
+            font-size: 46px; } }
+        @media (max-width: 500px) {
+          .hero-page .-small-size .main-section .content-main h2 {
+            font-size: 25px; } }
+      .hero-page .-small-size .main-section .content-main h3 {
+        text-align: center;
+        font-family: 'Domine', serif;
+        font-size: 33px;
+        color: #1c1e20;
+        display: block;
+        font-weight: 700;
+        line-height: 52px;
+        padding: 4px 10px 22px;
+        margin-bottom: 0px; }
+    .hero-page .-small-size .main-section .startup {
       margin: 0;
-      background: url(../img/mark.png) no-repeat;
-      background-size: 100% 100%;
-      font-weight: 500; }
-    .money-page .main-container .choose-block p {
-      font-size: 22px;
-      color: #311e15;
+      padding: 22px 0 0 0;
       text-align: center;
-      margin-top: 20px; }
+      display: inline-block; }
+      .hero-page .-small-size .main-section .startup ul {
+        float: left;
+        display: inline-block;
+        padding: 0;
+        margin: 0;
+        width: 100%; }
+        .hero-page .-small-size .main-section .startup ul li {
+          float: left;
+          display: inline-block;
+          padding: 0;
+          margin: 0px 15px 0 10px;
+          width: 340px; }
+          @media (max-width: 767px) {
+            .hero-page .-small-size .main-section .startup ul li {
+              float: none; } }
+          .hero-page .-small-size .main-section .startup ul li.last {
+            margin: 0 !important; }
+            @media (max-width: 767px) {
+              .hero-page .-small-size .main-section .startup ul li.last {
+                float: none;
+                padding-top: 15px; } }
+          .hero-page .-small-size .main-section .startup ul li .pro_img1 {
+            display: block;
+            border-radius: 10px;
+            color: #000;
+            text-decoration: none;
+            outline: 0 none; }
+          .hero-page .-small-size .main-section .startup ul li h2 {
+            text-align: center;
+            font-family: 'Domine', serif;
+            font-size: 25.88px;
+            color: #1c1e20;
+            display: block;
+            font-weight: 700;
+            line-height: 30px;
+            background: url(../img/shape1.png) no-repeat center top;
+            padding: 15px 0 0 0;
+            margin: 12px 0 13px 0; }
+            .hero-page .-small-size .main-section .startup ul li h2 span {
+              font-family: 'Caveat', cursive;
+              display: block; }
+          .hero-page .-small-size .main-section .startup ul li p {
+            text-align: center;
+            font-family: 'Domine', serif;
+            font-size: 17px;
+            color: #1c1e20;
+            display: block;
+            font-weight: 400;
+            line-height: 24px;
+            padding: 0 29px;
+            margin: 0 0 19px 0; }
+            .hero-page .-small-size .main-section .startup ul li p a {
+              text-decoration: underline;
+              color: #2c7cc8; }
+              .hero-page .-small-size .main-section .startup ul li p a:hover {
+                text-decoration: none; }
+          .hero-page .-small-size .main-section .startup ul li .ssa {
+            width: 20px;
+            padding: 0;
+            margin: 0 auto;
+            width: 340px;
+            display: block; }
+            .hero-page .-small-size .main-section .startup ul li .ssa a.btn {
+              display: block;
+              background: url(../img/clieck_button.png) no-repeat center top;
+              font-family: 'Domine', serif;
+              font-size: 21.15px;
+              color: #ffffff;
+              font-weight: 700;
+              text-align: center;
+              line-height: 20px;
+              text-transform: uppercase;
+              text-shadow: 0px 2px 5px #cf4c17;
+              padding: 15px 0 14px; }
+              .hero-page .-small-size .main-section .startup ul li .ssa a.btn:hover {
+                background-position: center -69px; }
+            .hero-page .-small-size .main-section .startup ul li .ssa a span {
+              font-size: 14.15px;
+              display: block; }
+    .hero-page .-small-size .main-section .choose {
+      padding: 41px 0 53px 0;
+      margin: 0;
+      text-align: center; }
+      .hero-page .-small-size .main-section .choose h2 {
+        text-align: center;
+        font-family: 'Domine', serif;
+        font-size: 43.64px;
+        color: #311e15;
+        display: block;
+        font-weight: 700;
+        line-height: 33.42px;
+        padding: 0 0 10px 0; }
+        @media (max-width: 767px) {
+          .hero-page .-small-size .main-section .choose h2 {
+            font-size: 31.64px; } }
+      .hero-page .-small-size .main-section .choose p {
+        text-align: center;
+        font-family: 'Domine', serif;
+        font-size: 19px;
+        color: #311e15;
+        display: block;
+        font-weight: 400;
+        line-height: 30px;
+        max-width: 70%;
+        margin: 0 auto;
+        padding: 14px 0 26px 0; }
+      .hero-page .-small-size .main-section .choose .blue-btn {
+        text-align: center;
+        background: url(../img/ready_bg.png) no-repeat center top;
+        font-family: 'Domine', serif;
+        font-size: 20px;
+        color: #ffffff;
+        display: block;
+        font-weight: 700;
+        line-height: 25px;
+        text-shadow: 0px 2px 5px #375ba3;
+        display: inline-block;
+        padding: 22px 59px; }
+        @media (max-width: 767px) {
+          .hero-page .-small-size .main-section .choose .blue-btn {
+            font-size: 18px;
+            width: 90%;
+            background-size: 100% 200%;
+            padding: 17px 0 16px; } }
+        @media (max-width: 599px) {
+          .hero-page .-small-size .main-section .choose .blue-btn {
+            font-size: 13px;
+            width: 90%;
+            background-size: 100% 200%;
+            padding: 17px 0 16px; } }
+        @media (max-width: 479px) {
+          .hero-page .-small-size .main-section .choose .blue-btn {
+            width: 95%; } }
+        .hero-page .-small-size .main-section .choose .blue-btn:hover {
+          background-position: center -69px; }
 
-/*# sourceMappingURL=money_page.css.map */
+/*# sourceMappingURL=hero_page.css.map */

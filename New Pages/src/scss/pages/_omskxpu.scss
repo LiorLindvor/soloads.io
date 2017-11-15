@@ -1,6 +1,9 @@
 // STYLES FOR PAGE http://www.homebasedhero.com/cn/under.html#
 .omskxpu-page {
 	background: url(../img/bg.jpg) repeat-x;
+	height: auto;
+    margin-bottom: 50px;
+    padding-bottom:50px;
 	    // font-family: "Times New Roman";
 	.stop-block {
 			text-align: center;
@@ -18,14 +21,13 @@
 	    }
 		.content-block {
 			padding-bottom: 50px;
-			h1 {
-				font-size: 35.36px;
-			    color: #311e15;
-			    text-align: center;
-			    margin-top: 20px;
-    			margin-bottom: 10px;
-    			font-weight: 500;
-    			line-height: 1.1;
+			.main-title {
+				    font-size: 35.36px;
+				    color: #311e15;
+				    font-family: 'Andada', serif;
+				    text-align: center;
+				    font-weight: 500;
+    				line-height: 1.1;
 			}
 			h2 {
 				background: url(../img/mark.png) no-repeat;
@@ -86,12 +88,15 @@
 				}
 			}
 			.cant-choose-section {
-				h1 {
-					color: #311e15;
-				    font-size: 34px;
-				    text-transform: uppercase;
-				    letter-spacing: -2px;
-				    margin: 0;
+				.start-title {
+					    color: #311e15;
+					    font-size: 34px;
+					    text-transform: uppercase;
+					    letter-spacing: -2px;
+					    margin: 0;
+					    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+					    font-weight: 400;
+					    text-align: center;
 				    @media (max-width:767px) {
 				    	font-size: 29px;
 				    }
@@ -107,6 +112,9 @@
 				    display: block;
 				    @media (max-width:767px) {
 				    	font-size: 22px;
+				    }
+				    &.mark-yellow {
+				    	font-weight: 400;
 				    }
 				}
 				p {
