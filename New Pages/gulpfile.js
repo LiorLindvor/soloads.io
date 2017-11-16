@@ -60,7 +60,7 @@ gulp.task('sass:special_page', () => {
         .src('src/scss/special_page.scss')
         .pipe(sourcemaps.init())
         .pipe(sass().on('error', sass.logError))
-        // .pipe(minifyCSS())
+        .pipe(minifyCSS())
         .pipe(sourcemaps.write('.'))
         .pipe(gulp.dest('dist/styles'))
 });
@@ -72,7 +72,7 @@ gulp.task('sass:gift_page', () => {
         .src('src/scss/gift_page.scss')
         .pipe(sourcemaps.init())
         .pipe(sass().on('error', sass.logError))
-        // .pipe(minifyCSS())
+        .pipe(minifyCSS())
         .pipe(sourcemaps.write('.'))
         .pipe(gulp.dest('dist/styles'))
 });
@@ -84,7 +84,7 @@ gulp.task('sass:under_page', () => {
         .src('src/scss/under_page.scss')
         .pipe(sourcemaps.init())
         .pipe(sass().on('error', sass.logError))
-        // .pipe(minifyCSS())
+        .pipe(minifyCSS())
         .pipe(sourcemaps.write('.'))
         .pipe(gulp.dest('dist/styles'))
 });
@@ -96,7 +96,7 @@ gulp.task('sass:omskxpu_page', () => {
         .src('src/scss/omskxpu_page.scss')
         .pipe(sourcemaps.init())
         .pipe(sass().on('error', sass.logError))
-        // .pipe(minifyCSS())
+        .pipe(minifyCSS())
         .pipe(sourcemaps.write('.'))
         .pipe(gulp.dest('dist/styles'))
 });
@@ -108,7 +108,7 @@ gulp.task('sass:money_page', () => {
         .src('src/scss/money_page.scss')
         .pipe(sourcemaps.init())
         .pipe(sass().on('error', sass.logError))
-        // .pipe(minifyCSS())
+        .pipe(minifyCSS())
         .pipe(sourcemaps.write('.'))
         .pipe(gulp.dest('dist/styles'))
 });
@@ -120,7 +120,7 @@ gulp.task('sass:lazy_page', () => {
         .src('src/scss/lazy_page.scss')
         .pipe(sourcemaps.init())
         .pipe(sass().on('error', sass.logError))
-        // .pipe(minifyCSS())
+        .pipe(minifyCSS())
         .pipe(sourcemaps.write('.'))
         .pipe(gulp.dest('dist/styles'))
 });
@@ -132,7 +132,7 @@ gulp.task('sass:hero_page', () => {
         .src('src/scss/hero_page.scss')
         .pipe(sourcemaps.init())
         .pipe(sass().on('error', sass.logError))
-        // .pipe(minifyCSS())
+        .pipe(minifyCSS())
         .pipe(sourcemaps.write('.'))
         .pipe(gulp.dest('dist/styles'))
 });
@@ -144,7 +144,7 @@ gulp.task('sass:giftz_page', () => {
         .src('src/scss/giftz_page.scss')
         .pipe(sourcemaps.init())
         .pipe(sass().on('error', sass.logError))
-        // .pipe(minifyCSS())
+        .pipe(minifyCSS())
         .pipe(sourcemaps.write('.'))
         .pipe(gulp.dest('dist/styles'))
 });
