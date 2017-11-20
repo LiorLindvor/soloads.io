@@ -1,6 +1,9 @@
 // STYLES FOR PAGE https://www.homebasedhero.com/omsk/special.html#
 .gift-page {
 	background: url(../img/background.jpg) repeat-x;
+	justify-content: center;
+    align-items: center;
+    display: flex;
 	.main-container {
 		border-bottom-left-radius: 5px;
 		border-bottom-right-radius: 5px;
